@@ -13,13 +13,16 @@
 		DAE844E1293A5E4C00967D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE844DF293A5E4C00967D91 /* Main.storyboard */; };
 		DAE844E3293A5E4D00967D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE844E2293A5E4D00967D91 /* Assets.xcassets */; };
 		DAE844E6293A5E4D00967D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE844E4293A5E4D00967D91 /* LaunchScreen.storyboard */; };
-		DAE844F2293A617900967D91 /* SeriesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE844F1293A617900967D91 /* SeriesScreen.storyboard */; };
-		DAE844F4293A61A600967D91 /* ActorsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE844F3293A61A600967D91 /* ActorsScreen.storyboard */; };
 		DAE844F6293A6D3C00967D91 /* TrendingMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844F5293A6D3C00967D91 /* TrendingMovies.swift */; };
 		DAE844F8293A6DC600967D91 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844F7293A6DC600967D91 /* Movies.swift */; };
 		DAE844FA293A71E700967D91 /* MoviesParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844F9293A71E700967D91 /* MoviesParse.swift */; };
 		DAE844FC293A7F6500967D91 /* MoviesCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844FB293A7F6500967D91 /* MoviesCellController.swift */; };
 		DAE844FE293E0DA700967D91 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844FD293E0DA700967D91 /* UIImageView+Extension.swift */; };
+		DAE84500293E3E8100967D91 /* SeriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE844FF293E3E8100967D91 /* SeriesTableViewCell.swift */; };
+		DAE84504293E612800967D91 /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE84503293E612800967D91 /* SeriesViewController.swift */; };
+		DAE84506293E669A00967D91 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE84505293E669A00967D91 /* Series.swift */; };
+		DAE84508293E66B500967D91 /* TrendingSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE84507293E66B500967D91 /* TrendingSeries.swift */; };
+		DAE8450A293E66CB00967D91 /* SeriesParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE84509293E66CB00967D91 /* SeriesParse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +35,16 @@
 		DAE844E5293A5E4D00967D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE844E7293A5E4D00967D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE844ED293A5F1700967D91 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DAE844F1293A617900967D91 /* SeriesScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeriesScreen.storyboard; sourceTree = "<group>"; };
-		DAE844F3293A61A600967D91 /* ActorsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActorsScreen.storyboard; sourceTree = "<group>"; };
 		DAE844F5293A6D3C00967D91 /* TrendingMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovies.swift; sourceTree = "<group>"; };
 		DAE844F7293A6DC600967D91 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		DAE844F9293A71E700967D91 /* MoviesParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesParse.swift; sourceTree = "<group>"; };
 		DAE844FB293A7F6500967D91 /* MoviesCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesCellController.swift; path = moviesApp/Controllers/MoviesCellController.swift; sourceTree = SOURCE_ROOT; };
 		DAE844FD293E0DA700967D91 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DAE844FF293E3E8100967D91 /* SeriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTableViewCell.swift; sourceTree = "<group>"; };
+		DAE84503293E612800967D91 /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
+		DAE84505293E669A00967D91 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		DAE84507293E66B500967D91 /* TrendingSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingSeries.swift; sourceTree = "<group>"; };
+		DAE84509293E66CB00967D91 /* SeriesParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesParse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 			children = (
 				DAE844DD293A5E4C00967D91 /* ViewController.swift */,
 				DAE844FB293A7F6500967D91 /* MoviesCellController.swift */,
+				DAE844FF293E3E8100967D91 /* SeriesTableViewCell.swift */,
+				DAE84503293E612800967D91 /* SeriesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				DAE844DF293A5E4C00967D91 /* Main.storyboard */,
-				DAE844F1293A617900967D91 /* SeriesScreen.storyboard */,
-				DAE844F3293A61A600967D91 /* ActorsScreen.storyboard */,
 				DAE844FD293E0DA700967D91 /* UIImageView+Extension.swift */,
 			);
 			path = Views;
@@ -107,11 +113,30 @@
 		DAE844F0293A5F3A00967D91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DAE84502293E5E3900967D91 /* Series */,
+				DAE84501293E407000967D91 /* Movies */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DAE84501293E407000967D91 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
 				DAE844F5293A6D3C00967D91 /* TrendingMovies.swift */,
 				DAE844F7293A6DC600967D91 /* Movies.swift */,
 				DAE844F9293A71E700967D91 /* MoviesParse.swift */,
 			);
-			path = Models;
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		DAE84502293E5E3900967D91 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				DAE84505293E669A00967D91 /* Series.swift */,
+				DAE84507293E66B500967D91 /* TrendingSeries.swift */,
+				DAE84509293E66CB00967D91 /* SeriesParse.swift */,
+			);
+			path = Series;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE844E6293A5E4D00967D91 /* LaunchScreen.storyboard in Resources */,
-				DAE844F4293A61A600967D91 /* ActorsScreen.storyboard in Resources */,
-				DAE844F2293A617900967D91 /* SeriesScreen.storyboard in Resources */,
 				DAE844E3293A5E4D00967D91 /* Assets.xcassets in Resources */,
 				DAE844E1293A5E4C00967D91 /* Main.storyboard in Resources */,
 			);
@@ -188,11 +211,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE844F8293A6DC600967D91 /* Movies.swift in Sources */,
+				DAE84500293E3E8100967D91 /* SeriesTableViewCell.swift in Sources */,
 				DAE844DE293A5E4C00967D91 /* ViewController.swift in Sources */,
+				DAE84504293E612800967D91 /* SeriesViewController.swift in Sources */,
 				DAE844F6293A6D3C00967D91 /* TrendingMovies.swift in Sources */,
 				DAE844FE293E0DA700967D91 /* UIImageView+Extension.swift in Sources */,
 				DAE844DA293A5E4C00967D91 /* AppDelegate.swift in Sources */,
+				DAE8450A293E66CB00967D91 /* SeriesParse.swift in Sources */,
 				DAE844FA293A71E700967D91 /* MoviesParse.swift in Sources */,
+				DAE84506293E669A00967D91 /* Series.swift in Sources */,
+				DAE84508293E66B500967D91 /* TrendingSeries.swift in Sources */,
 				DAE844FC293A7F6500967D91 /* MoviesCellController.swift in Sources */,
 				DAE844DC293A5E4C00967D91 /* SceneDelegate.swift in Sources */,
 			);

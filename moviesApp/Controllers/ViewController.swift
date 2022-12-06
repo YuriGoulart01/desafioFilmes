@@ -3,6 +3,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var movieParseResult = MoviesParse()
     var data: [Movies] = []
@@ -12,8 +13,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
         tableView.dataSource = self
         movieParseResult.delegate = self
+        activityIndicator.startAnimating()
+        tableView.isHidden = true
         movieParseResult.moviesParse()
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,6 +40,8 @@ extension ViewController: MoviesParseDelegate {
         data = moviesList
         DispatchQueue.main.async { [weak self] in
             self?.tableView.reloadData()
+            self?.activityIndicator.stopAnimating()
+            self?.tableView.isHidden = false
         }
     }
     
