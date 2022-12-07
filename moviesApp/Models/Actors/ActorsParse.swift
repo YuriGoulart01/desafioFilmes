@@ -7,7 +7,7 @@ protocol ActorsParseDelegate: AnyObject {
 
 struct ActorsParse {
     
-    let url = "https://api.themoviedb.org/3/trending/tv/week?api_key=d8ab08a45dfeb6ee6317a10b502a476a"
+    let url = "https://api.themoviedb.org/3/trending/person/week?api_key=d8ab08a45dfeb6ee6317a10b502a476a"
     weak var delegate: ActorsParseDelegate?
     
     func actorsParse () {
