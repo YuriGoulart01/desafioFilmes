@@ -28,6 +28,8 @@
 		DAE8451B294128A200967D91 /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8451A294128A200967D91 /* Actors.swift */; };
 		DAE8451E294128BD00967D91 /* TrendingActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8451D294128BD00967D91 /* TrendingActors.swift */; };
 		DAE84520294128D300967D91 /* ActorsParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8451F294128D300967D91 /* ActorsParse.swift */; };
+		DAE845222941367F00967D91 /* ActorsKnownFor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE845212941367F00967D91 /* ActorsKnownFor.storyboard */; };
+		DAE845242941384900967D91 /* KnownForCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE845232941384900967D91 /* KnownForCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		DAE8451A294128A200967D91 /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		DAE8451D294128BD00967D91 /* TrendingActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingActors.swift; sourceTree = "<group>"; };
 		DAE8451F294128D300967D91 /* ActorsParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsParse.swift; sourceTree = "<group>"; };
+		DAE845212941367F00967D91 /* ActorsKnownFor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActorsKnownFor.storyboard; sourceTree = "<group>"; };
+		DAE845232941384900967D91 /* KnownForCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownForCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE844DF293A5E4C00967D91 /* Main.storyboard */,
+				DAE845212941367F00967D91 /* ActorsKnownFor.storyboard */,
 				DAE844FD293E0DA700967D91 /* UIImageView+Extension.swift */,
 			);
 			path = Views;
@@ -172,6 +177,7 @@
 			children = (
 				DAE845102940FAF700967D91 /* ActorsViewController.swift */,
 				DAE8450B2940DA1700967D91 /* ActorCell.swift */,
+				DAE845232941384900967D91 /* KnownForCell.swift */,
 			);
 			path = Actors;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE845222941367F00967D91 /* ActorsKnownFor.storyboard in Resources */,
 				DAE844E6293A5E4D00967D91 /* LaunchScreen.storyboard in Resources */,
 				DAE844E3293A5E4D00967D91 /* Assets.xcassets in Resources */,
 				DAE844E1293A5E4C00967D91 /* Main.storyboard in Resources */,
@@ -273,6 +280,7 @@
 				DAE84506293E669A00967D91 /* Series.swift in Sources */,
 				DAE84508293E66B500967D91 /* TrendingSeries.swift in Sources */,
 				DAE844FC293A7F6500967D91 /* MoviesCellController.swift in Sources */,
+				DAE845242941384900967D91 /* KnownForCell.swift in Sources */,
 				DAE844DC293A5E4C00967D91 /* SceneDelegate.swift in Sources */,
 				DAE8451E294128BD00967D91 /* TrendingActors.swift in Sources */,
 			);

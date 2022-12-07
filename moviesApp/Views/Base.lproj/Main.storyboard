@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--People-->
+        <!--Actors View Controller-->
         <scene sceneID="i4a-gm-yDb">
             <objects>
                 <viewController id="4yO-wQ-AMI" customClass="ActorsViewController" customModule="moviesApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aOL-8c-NKc">
-                                <rect key="frame" x="0.0" y="47" width="390" height="714"/>
+                                <rect key="frame" x="0.0" y="91" width="390" height="670"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="actorCell" rowHeight="241" id="0Ym-Xt-8P7" customClass="ActorCell" customModule="moviesApp" customModuleProvider="target">
@@ -119,14 +119,14 @@
                             <constraint firstItem="INP-2j-f5u" firstAttribute="trailing" secondItem="aOL-8c-NKc" secondAttribute="trailing" id="tl9-Lx-L2z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="People" image="person" catalog="system" id="oiX-gR-diw"/>
+                    <navigationItem key="navigationItem" id="EW7-mO-mav"/>
                     <connections>
                         <outlet property="tableView" destination="aOL-8c-NKc" id="RGA-Ob-u2f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scs-RJ-Dwf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-149.23076923076923" y="-93.127962085308056"/>
+            <point key="canvasLocation" x="780" y="-93.127962085308056"/>
         </scene>
         <!--TV Shows-->
         <scene sceneID="p7o-OP-woi">
@@ -296,7 +296,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9Nz-3a-QcM"/>
                         <segue destination="FeE-Py-HwL" kind="relationship" relationship="viewControllers" id="nZA-VG-LDV"/>
-                        <segue destination="4yO-wQ-AMI" kind="relationship" relationship="viewControllers" id="J2O-3C-JfF"/>
+                        <segue destination="xhb-PF-8sv" kind="relationship" relationship="viewControllers" id="J2O-3C-JfF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIK-Ql-2yg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -471,6 +471,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2337" y="-77"/>
+        </scene>
+        <!--People-->
+        <scene sceneID="Phv-V9-U5z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xhb-PF-8sv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="People" image="person" catalog="system" id="oiX-gR-diw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ag7-MY-iCI">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4yO-wQ-AMI" kind="relationship" relationship="rootViewController" id="f7n-Z7-M87"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGj-lQ-3J1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-149.23076923076923" y="-93.127962085308056"/>
         </scene>
     </scenes>
     <resources>

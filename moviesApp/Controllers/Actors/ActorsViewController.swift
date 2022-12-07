@@ -28,6 +28,10 @@ class ActorsViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 }
 
 extension ActorsViewController: ActorsParseDelegate {
