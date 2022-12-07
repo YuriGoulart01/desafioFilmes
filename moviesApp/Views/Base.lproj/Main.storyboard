@@ -100,6 +100,12 @@
                                                 <constraint firstItem="9WP-9b-Kue" firstAttribute="top" secondItem="yCm-Ee-vfr" secondAttribute="bottom" constant="8" id="sf6-ts-czU"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="actorImage" destination="SzI-ya-Yb1" id="zyG-8a-Xoj"/>
+                                            <outlet property="actorKnownFor" destination="ueg-vf-bAk" id="hVI-Tg-abY"/>
+                                            <outlet property="actorName" destination="yCm-Ee-vfr" id="1VF-8T-NPs"/>
+                                            <outlet property="actorPopularity" destination="QUf-br-q5u" id="odX-rw-ZrR"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

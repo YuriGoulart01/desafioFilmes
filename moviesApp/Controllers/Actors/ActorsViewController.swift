@@ -1,6 +1,6 @@
 import UIKit
 
-class ActorsViewController: UIViewController {
+class ActorsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     

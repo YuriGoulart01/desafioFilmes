@@ -2,11 +2,11 @@ import Foundation
 
 struct Movies: Codable {
     
-    var title: String
+    var title: String?
     var voteAverage: Double
     var voteCount: Int
     var imageLinkId: String
-    var releaseDate: String
+    var releaseDate: String?
     var resume: String
     var imageUrl: String = "https://image.tmdb.org/t/p/w500/"
     
