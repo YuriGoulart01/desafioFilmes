@@ -122,11 +122,22 @@
                     <navigationItem key="navigationItem" id="EW7-mO-mav"/>
                     <connections>
                         <outlet property="tableView" destination="aOL-8c-NKc" id="RGA-Ob-u2f"/>
+                        <segue destination="rcB-Fn-yOi" kind="show" identifier="actorsKnownFor" id="OqI-Dj-RzJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scs-RJ-Dwf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="780" y="-93.127962085308056"/>
+        </scene>
+        <!--actorsKnownFor-->
+        <scene sceneID="0Hg-zI-AaP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="actorsKnownFor" storyboardName="ActorsKnownFor" referencedIdentifier="actorsKnownFor" id="rcB-Fn-yOi" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pkM-nW-ufE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YQM-yU-Xo6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1670" y="-260"/>
         </scene>
         <!--TV Shows-->
         <scene sceneID="p7o-OP-woi">

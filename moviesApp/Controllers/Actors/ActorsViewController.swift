@@ -5,7 +5,9 @@ class ActorsViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var tableView: UITableView!
     
     var actors = ActorsParse()
+    var knownFor = KnownForCell()
     var data: [Actors] = []
+    var selectedIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +32,22 @@ class ActorsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedIndex = indexPath.row
         
+        performSegue(withIdentifier: "actorsKnownFor", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "actorsKnownFor" {
+            if let vc = segue.destination as? KnownForViewController, let knowFor = data[selectedIndex].KnowFor, !knowFor.isEmpty {
+                vc.data = knowFor
+            } else {
+                let viewController = UIAlertController(title: "Filmes não encontrados", message: "O autor selecionado não possui filmes", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "Ok", style: .default)
+                viewController.addAction(okAction)
+                self.present(viewController, animated: true)
+            }
+        }
     }
 }
 

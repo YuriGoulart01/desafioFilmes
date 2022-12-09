@@ -10,7 +10,12 @@ class KnownForCell: UITableViewCell {
     @IBOutlet weak var movieImage: UIImageView!
     
     func setMovieKnownFor (_ movie: Movies) {
-        
-        
+        movieTitle.text = movie.title
+        movieLaunchDate.text = movie.releaseDate
+        movieMediaNote.text = String(movie.voteAverage)
+        movieNumberOfVotes.text = String(movie.voteCount)
+        movieResume.text = movie.resume
+        guard let url = URL(string: movie.imageUrl.appending(movie.imageLinkId)) else {return}
+        movieImage.load(url: url)
     }
 }

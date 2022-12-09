@@ -30,6 +30,7 @@
 		DAE84520294128D300967D91 /* ActorsParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8451F294128D300967D91 /* ActorsParse.swift */; };
 		DAE845222941367F00967D91 /* ActorsKnownFor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE845212941367F00967D91 /* ActorsKnownFor.storyboard */; };
 		DAE845242941384900967D91 /* KnownForCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE845232941384900967D91 /* KnownForCell.swift */; };
+		DAE8452629413B3B00967D91 /* KnownForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8452529413B3B00967D91 /* KnownForViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		DAE8451F294128D300967D91 /* ActorsParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsParse.swift; sourceTree = "<group>"; };
 		DAE845212941367F00967D91 /* ActorsKnownFor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActorsKnownFor.storyboard; sourceTree = "<group>"; };
 		DAE845232941384900967D91 /* KnownForCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownForCell.swift; sourceTree = "<group>"; };
+		DAE8452529413B3B00967D91 /* KnownForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownForViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				DAE845102940FAF700967D91 /* ActorsViewController.swift */,
 				DAE8450B2940DA1700967D91 /* ActorCell.swift */,
 				DAE845232941384900967D91 /* KnownForCell.swift */,
+				DAE8452529413B3B00967D91 /* KnownForViewController.swift */,
 			);
 			path = Actors;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				DAE844FC293A7F6500967D91 /* MoviesCellController.swift in Sources */,
 				DAE845242941384900967D91 /* KnownForCell.swift in Sources */,
 				DAE844DC293A5E4C00967D91 /* SceneDelegate.swift in Sources */,
+				DAE8452629413B3B00967D91 /* KnownForViewController.swift in Sources */,
 				DAE8451E294128BD00967D91 /* TrendingActors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
