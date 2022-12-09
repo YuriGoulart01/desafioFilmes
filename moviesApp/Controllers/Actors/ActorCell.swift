@@ -13,6 +13,6 @@ class ActorCell: UITableViewCell {
         actorKnownFor.text = actor.knownForDepartament
         actorPopularity.text = String(actor.popularity)
         guard let actorImageCheck = actor.actorImage ,let url = URL(string: actor.imageUrl.appending(actorImageCheck)) else {actorImage.image = UIImage(named: "no image"); return}
-        actorImage.load(url: url)
+        actorImage.loadImage(url: url)
     }
 }

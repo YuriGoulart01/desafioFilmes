@@ -16,6 +16,6 @@ class SeriesTableViewCell: UITableViewCell {
         serieVoteCount.text = String(serie.voteCount)
         serieResume.text = serie.resume
         guard let url = URL(string: serie.imageUrl.appending(serie.imageLinkId)) else {return}
-        serieImage.load(url: url)
+        serieImage.loadImage(url: url)
     }
 }

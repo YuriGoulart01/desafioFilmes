@@ -16,7 +16,7 @@ class MoviesViewCell: UITableViewCell {
         voteCount.text = String(movie.voteCount)
         movieResume.text = movie.resume
         guard let url = URL(string: movie.imageUrl.appending(movie.imageLinkId)) else {return}
-        movieImage.load(url: url)
+        movieImage.loadImage(url: url)
         
     }
 }

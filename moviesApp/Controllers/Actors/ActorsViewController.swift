@@ -61,7 +61,10 @@ extension ActorsViewController: ActorsParseDelegate {
     }
     
     func ActorsError(_ error: Error) {
-        print(error)
+        let viewController = UIAlertController(title: "Filmes não encontrados", message: "O autor selecionado não possui filmes", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        viewController.addAction(okAction)
+        self.present(viewController, animated: true)
     }
     
     

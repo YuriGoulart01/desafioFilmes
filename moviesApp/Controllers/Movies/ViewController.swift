@@ -46,6 +46,10 @@ extension ViewController: MoviesParseDelegate {
     }
     
     func moviesError(_ error: Error) {
+        let viewController = UIAlertController(title: "Filmes não encontrados", message: "Filmes não encontrados tente novamente mais tarde", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        viewController.addAction(okAction)
+        self.present(viewController, animated: true)
     }
     
     

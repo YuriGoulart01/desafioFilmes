@@ -40,6 +40,10 @@ extension SeriesViewController: SeriesParseDelegate {
     }
     
     func seriesError(_ error: Error) {
+        let viewController = UIAlertController(title: "Séries não encontrados", message: "Séries não disponiveis no momento", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        viewController.addAction(okAction)
+        self.present(viewController, animated: true)
     }
     
     
